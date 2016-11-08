@@ -89,7 +89,7 @@ When the function is triggered in a matching way, my logging code is called with
 ### Cons
 
 * Requires some additional tests to check logging is taking place. [^fn-logging-tests]
-* Adds abut 20ms to request time. [^fn-request-time]
+* Adds ~20ms to request time. [^fn-request-time]
 * It uses annotations to tag the places to be logged. Many people [dislike annotations](https://r.je/php-annotations-are-an-abomination.html);
 this could be fixed by allowing yaml/xml configuration as an alternative.
 * Generates code which includes the interleaved AOP functionality & the original class. [^fn-generated-code] [^fn-generated-code-ok]
