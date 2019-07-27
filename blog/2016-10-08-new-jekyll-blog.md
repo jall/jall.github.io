@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: blog
 title: A beginning
+path: /blog/a-beginning
+date: 2016-10-08
 ---
 
 So this is the inaugural post of my new blog/personal homepage.

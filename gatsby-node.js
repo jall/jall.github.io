@@ -12,10 +12,10 @@ exports.onCreateNode = ({node, actions, getNode}) => {
 
   switch (node.internal.type) {
     case "MarkdownRemark": {
-      const {permalink, layout} = node.frontmatter
+      const {layout, path} = node.frontmatter
       const {relativePath} = getNode(node.parent)
 
-      let slug = permalink
+      let slug = path
 
       if (!slug) {
         slug = `/${relativePath.replace(".md", "")}/`

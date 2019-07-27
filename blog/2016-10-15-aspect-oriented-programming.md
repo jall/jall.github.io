@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: blog
 title: Aspect oriented programming
+path: /blog/aspect-oriented-programming
+date: 2016-10-15
 ---
 
 Recently, I was adding logging to a slew of business logic classes in the project
